@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 991px){
+	
+/*=== Custom css ===*/
+	section{
+		padding: 30px;
+		line-height: 40px;
+		
+	}
+	h3{
+		font-size: 20px;
+	}
+	
+	/*=== Navbar Start ===*/
+	.header-scrolled{
+		height: auto;
+	}
+	.header_wrapper .menu-navbar-nav{
+		text-align: center;
+		background-color: #FF776B;
+		padding-bottom: 15px;
+	}
+	.header_wrapper .nav-item .nav-link{
+		margin-top: 15px;
+	}
+	/*=== Navbar End ===*/
+	
+	/*=== Banner Start ===*/
+	.banner_wrapper{
+/*		padding: 200px 0;*/
+		margin: 0;
+	}
+	.banner_wrapper .left-side{
+		padding-top: 50px;
+	}
+	.banner_wrapper .left-side h1{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 600;
+		color: var(--text-white);
+		margin: 20px 0;
+	}
+	
+	.banner_wrapper .left-side .main-btn{
+		display: inline-block;
+		border-radius: 50px;
+		transition: all .4s ease-in-out;
+		padding: 0px 10px;
+		background-color: transparent;
+	/*	border: 2px solid var(--gray-color);*/
+		border: 2px solid #cd84f1;
+		font-weight: 500;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-decoration: none;
+	}
+	/*=== Banner End ===*/
+	
+	/*=== About Start ===*/
+	.about_wrapper{
+		margin-top: 0px;
+	}
+	.about_wrapper ul.nav-pills{
+		width: 100%;
+		margin: auto;
+	}
+	.about_wrapper ul li .nav-link{
+		border-radius: 50px;
+		font-size: 15px;
+		font-weight: 500;
+		transition: all 0.45s cubic-bezier(0,0,0.2,1);
+		display: inline-block;
+		color: #2A2A2A;
+		border: 0;
+	}
+	/*=== About End ===*/
+	
+	/*=== Portfolio Start ===*/
+	.portfolio_wrapper .card{
+		min-height: 400px;
+	}
+	/*=== Portfolio End ===*/
+	
+	/*=== Contact Start ===*/
+	.contact_wrapper .main-btn{
+		display: inline-block;
+		border-radius: 50px;
+		transition: all .4s ease-in-out;
+		padding: 0px 30px;
+		background-color: transparent;
+	/*	border: 2px solid var(--gray-color);*/
+		border: 2px solid #cd84f1;
+		font-weight: 500;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-decoration: none;
+	}
+	/*=== Contact End ===*/
+	
+}
+
+@media (max-width: 767px){
+	
+	/*=== Custom css ===*/
+	h1{
+		font-size: 30px;
+		line-height: 48px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	p{
+		font-size: 13px;
+		line-height: 24px;
+	}
+	
+/*	=== Banner Start ===*/
+	
+	.banner_wrapper{
+		margin: 0;
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.banner_wrapper .left-side{
+		background-image: url(../Image/about-1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 50px 0;
+	}
+	.banner_wrapper .left-side h1{
+		font-size: 30px;
+		line-height: 50px;
+		font-weight: 600;
+		color: var(--text-white);
+		margin: 20px 0;
+	}
+	.banner_wrapper .left-side h6{
+		padding-bottom: 0;
+	}
+/*	=== Banner End ===*/
+	
+/*	=== About Start ===*/
+	.about_wrapper {
+		padding-top: 0;
+	}
+	.about_wrapper ul.nav-pills{
+		width: 100%;
+		margin: auto;
+		border: 1px solid var(--gray-color);;
+	}
+	.about_wrapper ul li .nav-link{
+		font-size: 13px;
+		padding: 0 10px;
+	}
+	.about_wrapper .tab-pane li{
+		margin-bottom: -5px;
+	}
+	.about_wrapper .tab-pane li a{
+		margin-bottom: -16px;
+	}
+	
+	
+/*	=== About End ===*/
+	
+	/*=== Portfolio Start ===*/
+	.portfolio_wrapper .card{
+		min-height: 500px;
+	}
+	/*=== Portfolio End ===*/
+	
+}
+
+@media (max-width: 375px){
+	/*	=== About Start ===*/
+	.about_wrapper ul.nav-pills{
+		width: 100%;
+		margin: auto;
+		border: 0;
+	}
+	/*	=== About End ===*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
